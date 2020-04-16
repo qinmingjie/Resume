@@ -24,13 +24,16 @@ function Index(){
                     justify="center"
                 >
                     <Col id="Btn">
-                    <Anchor 
-                        affix={false}
-                    >
-                       <Link href="#about" title="关于我"></Link>
-                    </Anchor>
+                        <Anchor 
+                            affix={false}
+                        >
+                        <Link href="#about" title="关于我"></Link>
+                        </Anchor>
                         <Anchor affix={false}>
                             <Link href="#project" title="作品"></Link>
+                        </Anchor>
+                        <Anchor affix={false}>
+                            <Link href="http://www.github.com/qinmingjie" title="Github"></Link>
                         </Anchor>
                     </Col>
                 </Row>
